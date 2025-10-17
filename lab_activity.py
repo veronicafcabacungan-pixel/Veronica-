@@ -31,7 +31,7 @@ print(f"{inches} inches is equal to {feet} feet and {remaining_inches} inches.")
 
 
 # Task 4: Movie Ticket Price Decider
-age = 19
+age = 20
 is_student = True
 
 base_price = 12
@@ -53,17 +53,17 @@ print(f"Your ticket price is ${final_price}.")
 
 
 # Task 5: Secure System Login Simulator
-correct_username = "Veronica"
-correct_password = "Cabacungan"
+correct_username = "Alice"
+correct_password = "wonderland"
 is_2fa_enabled = True
-correct_2fa_code = "010101"
+correct_2fa_code = "123456"
 
 input_username = input("Enter username: ")
 input_password = input("Enter password: ")
 two_fa = input("Is 2FA enabled? (y/n): ").lower()
 input_2fa_code = ""
 
-if two_fa == "v":
+if two_fa == "y":
     input_2fa_code = input("Enter 2FA code: ")
 
 if (input_username == correct_username and
